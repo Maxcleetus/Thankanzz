@@ -1,22 +1,21 @@
 import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
 import { faPlay, faPause } from "@fortawesome/free-solid-svg-icons"; 
-import sound from "../assets/mp3/a.mp3";
-import one from '../assets/photos/1.jpg'
-import two from '../assets/photos/2.jpg'
-import three from '../assets/photos/3.jpg'
-import four from '../assets/photos/4.jpg'
-import five from '../assets/photos/5.jpg'
-import six from '../assets/photos/6.jpg'
-import seven from '../assets/photos/7.jpg'
-import eight from '../assets/photos/8.jpg'
-import nine from '../assets/photos/9.jpg'
-import ten from '../assets/photos/10.jpg'
-import eleven from '../assets/photos/11.jpg'
-import twl from '../assets/photos/12.jpg'
-import thit from '../assets/photos/13.jpg'
-import fort from '../assets/photos/14.jpg'
-import fift from '../assets/photos/15.jpg'
+import sound from "../../public/assets/mp3/a.mp3";
+import one from '../../public/assets/photos/1.jpg'
+import two from '../../public/assets/photos/2.jpg'
+import four from '../../public/assets/photos/4.jpg'
+import five from '../../public/assets/photos/5.jpg'
+import six from '../../public/assets/photos/6.jpg'
+import seven from '../../public/assets/photos/7.jpg'
+import eight from '../../public/assets/photos/8.jpg'
+import nine from '../../public/assets/photos/9.jpg'
+import ten from '../../public/assets/photos/10.jpg'
+import eleven from '../../public/assets/photos/11.jpg'
+import twl from '../../public/assets/photos/12.jpg'
+import thit from '../../public/assets/photos/13.jpg'
+import fort from '../../public/assets/photos/14.jpg'
+import fift from '../../public/assets/photos/15.jpg'
 const Home = () => {
     const [audio, setAudio] = useState(null);
     const [isPlay, setIsPlay] = useState(false);
