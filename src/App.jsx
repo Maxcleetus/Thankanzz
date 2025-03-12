@@ -1,6 +1,6 @@
 import React from 'react'
 import Login from './pages/login'
-import { Route, Routes } from 'react-router-dom'
+import { HashRouter as Route, Routes } from 'react-router-dom';
 import Home from './pages/Home'
 import Navbar from './components/navbar'
 import bg from '../src/assets/photos/bg.jpg'
